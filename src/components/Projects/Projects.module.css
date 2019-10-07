@@ -1,0 +1,66 @@
+.projects {
+    height: 100%;
+    display: flex;
+    background-color: #1f1f20;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.projectWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.project {
+    width: 500px;
+    background: rgba(255,255,255,0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    height: max-content;
+    position: relative;
+}
+.projectImg{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Images/social_icons.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.projectImg:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background-color:black ;
+    opacity: 0.4;
+}
+.btnShow{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 1252px){
+    .projectWrapper{
+        justify-content: center;
+    }
+}
