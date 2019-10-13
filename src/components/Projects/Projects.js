@@ -20,7 +20,7 @@ function Projects() {
     };
 
     return (
-        <div className={styles.projects}>
+        <div id="Project" className={styles.projects}>
             <Fade bottom>
             <div className={styles.container}>
                 <BlockTitle title={"My project"}/>

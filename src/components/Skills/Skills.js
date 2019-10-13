@@ -19,7 +19,7 @@ function Skills() {
     let sass = sassIcon;
     let redux = reduxIcon;
   return (
-      <div className={styles.skills}>
+      <div id="Skills" className={styles.skills}>
           <Fade bottom>
         <div className={styles.container}>
           <BlockTitle title={"My skills"}/>

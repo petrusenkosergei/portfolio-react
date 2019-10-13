@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 
 function Main() {
     return (
-        <div className={styles.main}>
+        <div id="Main" className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <Fade left>

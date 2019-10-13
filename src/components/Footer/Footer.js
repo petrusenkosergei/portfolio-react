@@ -15,22 +15,22 @@ function Footer() {
                 <BlockTitle title={"Sergei Petrusenko"}/>
                 <div className={styles.socialBlock}>
                     <div className={styles.socialIcon}>
-                        <a href ="" >
+                        <a href ="https://www.instagram.com/sergei__petrusenko">
                             <img src ={instagramIcon} alt=""/>
                         </a>
                     </div>
                     <div className={styles.socialIcon}>
-                        <a href ="" >
+                        <a href ="https://www.facebook.com/sergei.petrusenko?ref=bookmarks" >
                             <img src ={fasebookIcon} alt=""/>
                         </a>
                     </div>
                     <div className={styles.socialIcon}>
-                        <a href ="" >
+                        <a href ="https://vk.com/s.petrusenko" >
                             <img src ={vkIcon} alt=""/>
                         </a>
                     </div>
                     <div className={styles.socialIcon}>
-                        <a href ="" >
+                        <a href ="https://www.linkedin.com/in/petrusenka/" >
                             <img src ={linkedinIcon} alt=""/>
                         </a>
                     </div>

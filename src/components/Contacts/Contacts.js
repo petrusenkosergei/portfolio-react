@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 function Contacts() {
     return (
 
-        <div className={styles.contacts}>
+        <div  id="Contact" className={styles.contacts}>
             <Fade bottom>
             <div className={styles.container}>
                 <BlockTitle title={"Contact"}/>
