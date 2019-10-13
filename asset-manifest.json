@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.795741fd.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.eed92491.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.eed92491.chunk.js.map",
+    "runtime~main.js": "/portfolio-react/static/js/runtime~main.5011f639.js",
+    "runtime~main.js.map": "/portfolio-react/static/js/runtime~main.5011f639.js.map",
+    "static/js/2.d085fb2e.chunk.js": "/portfolio-react/static/js/2.d085fb2e.chunk.js",
+    "static/js/2.d085fb2e.chunk.js.map": "/portfolio-react/static/js/2.d085fb2e.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.14a3f1c8f8cb17f459c952314472766f.js": "/portfolio-react/precache-manifest.14a3f1c8f8cb17f459c952314472766f.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.795741fd.chunk.css.map": "/portfolio-react/static/css/main.795741fd.chunk.css.map",
+    "static/media/Main.module.css": "/portfolio-react/static/media/Avatar.68466e9a.jpg",
+    "static/media/Count.png": "/portfolio-react/static/media/Count.ff60d17e.png",
+    "static/media/Instagram_icon.png": "/portfolio-react/static/media/Instagram_icon.e0b39660.png",
+    "static/media/Linkedin_icon.png": "/portfolio-react/static/media/Linkedin_icon.6b6290a6.png",
+    "static/media/VK_icon.png": "/portfolio-react/static/media/VK_icon.392355aa.png",
+    "static/media/gulp.svg": "/portfolio-react/static/media/gulp.771551b9.svg",
+    "static/media/html_icon.svg": "/portfolio-react/static/media/html_icon.ce6e5ba0.svg",
+    "static/media/react-icon.png": "/portfolio-react/static/media/react-icon.6e8f68df.png",
+    "static/media/react_todo_list.jpg": "/portfolio-react/static/media/react_todo_list.034768c8.jpg",
+    "static/media/redux.png": "/portfolio-react/static/media/redux.59c46753.png",
+    "static/media/sass-1.svg": "/portfolio-react/static/media/sass-1.b446ca5a.svg",
+    "static/media/Projects.module.css": "/portfolio-react/static/media/social_icons.4fb72822.jpg"
+  }
+}
