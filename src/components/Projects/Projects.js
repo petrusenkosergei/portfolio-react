@@ -33,7 +33,6 @@ function Projects() {
 
     return (
         <div id="Project" className={styles.projects}>
-            <Fade bottom>
             <div className={styles.container}>
                 <BlockTitle title={"My project"}/>
                 <div className={styles.projectWrapper}>
@@ -55,12 +54,8 @@ function Projects() {
                     <Project title = {'Game Dog'}
                              style={DogImg}
                              description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. Quia, veritatis"}/>
-
-
-
                 </div>
             </div>
-            </Fade>
         </div>
     );
 }
