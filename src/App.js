@@ -8,6 +8,7 @@ import Slogan from "./components/Slogan/Slogan";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 import Particles from 'react-particles-js';
+import AboutMe from "./components/AboutMe/AboutMe";
 
 
 const particlesOpt = {
@@ -40,6 +41,7 @@ function App() {
             <Particles className={'particles'} params={particlesOpt}/>
             <Header/>
             <Main/>
+            <AboutMe/>
             <Skills />
             <Projects />
             <Slogan/>

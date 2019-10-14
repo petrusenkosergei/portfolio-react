@@ -8,7 +8,7 @@ import calculatorBgImg from '../../Images/Count.png'
 import BrandiImgBgImg from '../../Images/Brandi.jpg'
 import TeamgBgImg from '../../Images/teamProject.jpeg'
 import DogBgImg from '../../Images/dog.png'
-import Fade from 'react-reveal/Fade'
+
 
 
 function Projects() {
@@ -37,23 +37,36 @@ function Projects() {
                 <BlockTitle title={"My project"}/>
                 <div className={styles.projectWrapper}>
                     <Project title = {'To do list'}
+                             btnShowCode={'https://habr.com/ru/post/42151/'}
                              style={todolistImg}
-                             description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. Quia, veritatis"}/>
+                             href="https://github.com/petrusenkosergei/TodoList-React-redux"
+                             description = {"Completed training in IT-incubator on Front-end developing using React/Redux.\n" +
+                             "Worked on social media project using React/ Redux, GIT.\n"}/>
                     <Project title = {'Social Network'}
                              style={socialNetworkingImg}
-                             description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. "}/>
+                             href={'https://github.com/petrusenkosergei/Social-network-React-redux'}
+                             description = {"Completed training in IT-incubator on Front-end developing using React/Redux.\n" +
+                             "Worked on social media project using React/ Redux, GIT.\n"}/>
                     <Project title = {'Count'}
                              style={calculatorImg}
-                             description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. Quia, veritatis"}/>
+                             href={'https://github.com/petrusenkosergei/Counter-React-redux'}
+                             description = {"Completed training in IT-incubator on Front-end developing using React/Redux.\n" +
+                             "Worked on social media project using React/ Redux, GIT.\n"}/>
                     <Project title = {'Meet Brandi'}
                              style={BrandiImg}
-                             description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. Quia, veritatis"}/>
+                             href={'https://github.com/petrusenkosergei/Project-IT-Academy'}
+                             description = {"Completed training in IT-Academy on web developing using HTML, CSS и JavaScript." +
+                             "In project used HTML5 and  CSS3, preprocessor  SASS, framework Bootstrap, GULP assemble, version control system GIT."}/>
                     <Project title = {'Finance'}
                              style={TeamImg}
-                             description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. Quia, veritatis"}/>
+                             href={'https://github.com/petrusenkosergei/Financial-program'}
+                             description = {"Completed training in IT-Academy on web developing using HTML, CSS и JavaScript." +
+                             "In project used HTML5 and  CSS3, preprocessor  SASS, framework Bootstrap, GULP assemble, version control system GIT."}/>
                     <Project title = {'Game Dog'}
                              style={DogImg}
-                             description = {"Lorem ipsum dolor sit amet, consectetur adipisicing ipsum dolor nesciunt soluta elit. Quia, veritatis"}/>
+                             href={'https://github.com/petrusenkosergei/Social-network-React-redux'}
+                             description = {"Completed training in IT-incubator on Front-end developing using React/Redux.\n" +
+                             "Worked on social media project using React/ Redux, GIT.\n"}/>
                 </div>
             </div>
         </div>
