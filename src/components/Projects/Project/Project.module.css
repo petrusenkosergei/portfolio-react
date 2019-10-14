@@ -14,6 +14,22 @@
     background-size: cover;
     background-position: center;
 }
+.projectImg:hover p{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 100%;
+}
+p {
+    opacity: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 300px;
+    text-align: center;
+    color: #fff;
+    transition: .5s ease;
+}
 a.btnShowCode {
      position: relative;
      display: inline-block;
@@ -114,5 +130,17 @@ a.btnShow:active {
     .image{
         height: 360px;
         width: 260px;
+    }
+}
+
+
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }

@@ -6,7 +6,7 @@ import styles from './Project.module.css';
     function Project(props) {
         return (
             <div className={styles.projects}>
-                <div className={styles.projectImg} style={props.style}></div>
+                <div className={styles.projectImg} style={props.style}><p>Ghbdtn</p></div>
                 <div className={styles.projectTitle}>{props.title}</div>
                 <div className={styles.description}>{props.description}</div>
                 <div className={styles.btn}>

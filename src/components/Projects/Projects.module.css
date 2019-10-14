@@ -38,6 +38,7 @@
     background-position: center;
 
 }
+
 .projectImg:before{
     content: "";
     position: absolute;
