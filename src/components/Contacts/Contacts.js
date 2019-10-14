@@ -10,15 +10,15 @@ function Contacts() {
 
         <div  id="Contact" className={styles.contacts}>
             <Fade bottom>
-            <div className={styles.container}>
-                <BlockTitle title={"Contact"}/>
-                <form className={styles.formWrapper}>
-                    <input className={styles.formArea} placeholder="Name" type="text"></input>
-                    <input className={styles.formArea} placeholder="e-mail" type="email"></input>
-                    <textarea className={styles.messageArea} placeholder="Your message"></textarea>
-                    <button className={styles.btnSubmit} type="submit">Отправить</button>
-                </form>
-            </div>
+                <div className={styles.container}>
+                    <BlockTitle title={"Contact"}/>
+                    <form className={styles.formWrapper}>
+                        <input className={styles.formArea} placeholder="Name" type="text"></input>
+                        <input className={styles.formArea} placeholder="e-mail" type="email"></input>
+                        <textarea className={styles.messageArea} placeholder="Your message"></textarea>
+                        <button className={styles.btnSubmit} type="submit">Отправить</button>
+                    </form>
+                </div>
             </Fade>
         </div>
 
@@ -26,5 +26,3 @@ function Contacts() {
 }
 
 export default Contacts;
-
-

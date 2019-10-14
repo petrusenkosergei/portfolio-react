@@ -1,9 +1,8 @@
 .projects {
     background-color: #252527;
     justify-content: center;
-    height: 400px;
     width: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .projectImg{
     height: 300px;
@@ -11,16 +10,105 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 .btnShow{
-    width: 150px;
-    height: 50px;
-    background-color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Josefin Sans";
-    text-transform: uppercase;
+    background-color:#3bb3e0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    position:relative;
+    padding:8px 20px;
+    border-left:solid 1px #2ab7ec;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px;
+    margin: 0 156px 10px 166px;
+
+
+}
+.btnShow:active {
+    top:3px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+.btnShow::before {
+    content:"2";
+    width:35px;
+    max-height:29px;
+    height:100%;
+    position:absolute;
+    display:block;
+    padding-top:8px;
+    top:0px;
+    left:-36px;
+    font-size:16px;
+    font-weight:bold;
+    color:#8fd1ea;
+    text-shadow:1px 1px 0px #07526e;
+    border-right:solid 1px #07526e;
+    background-image: linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+    text-align: center;
+}
+
+.btnShow:active::before {
+    top:-3px;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
+}
+.btnShowCode{
+    display: flex;
+    background-color:#3bb3e0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    position:relative;
+    padding:8px 20px;
+    border-left:solid 1px #2ab7ec;
+    margin: 0 156px 10px 166px;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px;
+
+}
+.btnShowCode:active {
+    top:3px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+.btnShowCode::before {
+    text-align: center;
+    content:"1";
+    width:35px;
+    max-height:29px;
+    height:100%;
+    position:absolute;
+    display:block;
+    padding-top:8px;
+    top:0px;
+    left:-36px;
+    font-size:16px;
+    font-weight:bold;
+    color:#8fd1ea;
+    text-shadow:1px 1px 0px #07526e;
+    border-right:solid 1px #07526e;
+    background-image: linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+}
+
+.btnShowCode:active::before {
+    top:-3px;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
 }
 .projectImg:before{
     content: "";
@@ -33,13 +121,31 @@
 }
 .projectTitle{
     font-family: "Josefin Sans",sans-serif;
-    margin: 20px 15px 10px;
+    margin: 20px 15px 10px 45px;
     padding: 0;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 1px;
+    text-align:left;
 }
 .description{
-    margin: 0 15px 20px;
+    margin: 0 15px 20px 40px;
+
+
+}
+.btnTitle{
+
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 614px){
+    .btnShowCode{
+        margin: 0 100px 10px 166px;
+    }
+    .btnShow{
+        margin: 0 100px 10px 166px;
+
+    }
 }
